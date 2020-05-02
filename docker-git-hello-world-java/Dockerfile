@@ -29,6 +29,8 @@ RUN apt-get install -y mysql-client
 # RUN apt-get update && apt-get install -y oracle-java8-installer maven
 RUN apt-get update && apt-get install -y default-jdk maven
 
+# print current working directory
+RUN pwd
 
 # ADD a directory called docker-git-hello-world inside the UBUNTU IMAGE where you will be moving all of these files under this 
 # DIRECTORY to
